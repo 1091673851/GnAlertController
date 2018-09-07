@@ -12,6 +12,7 @@
 		6DD761F321426C2700817D88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD761F121426C2700817D88 /* Main.storyboard */; };
 		6DD761F521426C2800817D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DD761F421426C2800817D88 /* Assets.xcassets */; };
 		6DD761F821426C2800817D88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD761F621426C2800817D88 /* LaunchScreen.storyboard */; };
+		6DD7621021426F5A00817D88 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD7620F21426F5A00817D88 /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6DD761F421426C2800817D88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DD761F721426C2800817D88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DD761F921426C2800817D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DD7620F21426F5A00817D88 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				6DD761EC21426C2700817D88 /* GnAlertController */,
+				6DD7620E21426F2E00817D88 /* GnAlertController */,
 				6DD761EB21426C2700817D88 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +65,15 @@
 				6DD761F921426C2800817D88 /* Info.plist */,
 			);
 			path = GnAlertController;
+			sourceTree = "<group>";
+		};
+		6DD7620E21426F2E00817D88 /* GnAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				6DD7620F21426F5A00817D88 /* test.swift */,
+			);
+			name = GnAlertController;
+			path = ../GnAlertController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DD761F021426C2700817D88 /* ViewController.swift in Sources */,
+				6DD7621021426F5A00817D88 /* test.swift in Sources */,
 				6DD761EE21426C2700817D88 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
